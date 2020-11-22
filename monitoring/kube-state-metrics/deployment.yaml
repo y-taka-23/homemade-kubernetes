@@ -30,7 +30,7 @@ spec:
         resources:
           requests:
             cpu: 50m
-            memory: 100Mi
+            memory: 50Mi
         livenessProbe:
           httpGet:
             path: /healthz

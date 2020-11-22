@@ -685,7 +685,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "sum by(pod)(container_memory_usage_bytes{namespace!=\"\"})",
+          "expr": "sum by(pod)(container_memory_working_set_bytes{namespace!=\"\"})",
           "instant": false,
           "interval": "",
           "legendFormat": "{{pod}}",
@@ -849,5 +849,5 @@
   "timezone": "",
   "title": "Kubernetes on Raspberry Pi",
   "uid": "S4zeQViRz",
-  "version": 1
+  "version": 2
 }
